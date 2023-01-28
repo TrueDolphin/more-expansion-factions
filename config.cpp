@@ -2,9 +2,9 @@
 
 class CfgPatches
 {
-	class DayZ_Expansion_AI_Armbands_scripts
+	class DayZ_More_Expansion_Factions_scripts
 	{
-		requiredAddons[] = {"DZ_Scripts","DayZExpansion_AI_Scripts"};
+		requiredAddons[] = {""DayZExpansion_AI_Scripts"};
 	};
 };
 class CfgMods
@@ -27,7 +27,7 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"DayZExpansion/AI/Scripts/Common","DayZExpansion/AI/Scripts/3_Game","dolphin/More-Expansion-Factions/Game"};
+				files[] = {"dolphin/More-Expansion-Factions/Scripts/3_Game"};
 			};
 		};
 	};
