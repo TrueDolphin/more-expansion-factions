@@ -1,5 +1,11 @@
-modded class eAIFactionGuards
+class eAIFactionPolice : eAIFaction
 {
+	void eAIFactionPolice()
+	{
+		m_Name = "Police";
+		m_Loadout = "PoliceLoadout";
+	}
+
 	override bool IsFriendly(notnull eAIFaction other)
 	{
 		if (other.IsInherited(eAIFactionCivilian)) return true;

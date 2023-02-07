@@ -1,5 +1,11 @@
-modded class eAIFactionGuards
+class eAIFactionNBC : eAIFaction
 {
+	void eAIFactionNBC()
+	{
+		m_Name = "NBC";
+		m_Loadout = "NBCLoadout";
+	}
+
 	override bool IsFriendly(notnull eAIFaction other)
 	{
 		if (other.IsInherited(eAIFactionCivilian)) return true;

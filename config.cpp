@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class DayZ_More_Expansion_Factions_scripts
 	{
-		requiredAddons[] = {""DayZExpansion_AI_Scripts"};
+		requiredAddons[] = {"DayZExpansion_AI_Scripts", "More_Expansion_Factions_Define"};
 	};
 };
 class CfgMods

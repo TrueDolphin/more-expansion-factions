@@ -1,5 +1,11 @@
-modded class eAIFactionGuards
+class eAIFactionFireFighter : eAIFaction
 {
+	void eAIFactionFireFighter()
+	{
+		m_Name = "FireFighter";
+		m_Loadout = "FireFighterLoadout";
+	}
+
 	override bool IsFriendly(notnull eAIFaction other)
 	{
 		if (other.IsInherited(eAIFactionCivilian)) return true;
