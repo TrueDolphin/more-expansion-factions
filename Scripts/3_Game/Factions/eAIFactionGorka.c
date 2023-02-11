@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionGorka)]
 class eAIFactionGorka : eAIFaction
 {
 	void eAIFactionGorka()

@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionBandit)]
 class eAIFactionBandit : eAIFaction
 {
 	void eAIFactionBandit()

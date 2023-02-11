@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionNBC)]
 class eAIFactionNBC : eAIFaction
 {
 	void eAIFactionNBC()

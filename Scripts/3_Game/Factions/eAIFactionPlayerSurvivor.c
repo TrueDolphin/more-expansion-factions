@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionPlayerSurvivor)]
 class eAIFactionPlayerSurvivor : eAIFaction
 {
 	void eAIFactionplayerSurvivor()

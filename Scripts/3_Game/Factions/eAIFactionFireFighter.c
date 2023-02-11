@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionFireFighter)]
 class eAIFactionFireFighter : eAIFaction
 {
 	void eAIFactionFireFighter()

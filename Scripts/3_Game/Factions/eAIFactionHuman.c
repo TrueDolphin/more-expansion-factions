@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionHuman)]
 class eAIFactionHuman : eAIFaction
 {
 	void eAIFactionHuman()

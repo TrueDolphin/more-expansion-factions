@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionSouth)]
 class eAIFactionSouth : eAIFaction
 {
 	void eAIFactionSouth()

@@ -1,3 +1,4 @@
+[eAIRegisterFaction(eAIFactionPolice)]
 class eAIFactionPolice : eAIFaction
 {
 	void eAIFactionPolice()
