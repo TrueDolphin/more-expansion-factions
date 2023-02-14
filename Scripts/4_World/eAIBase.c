@@ -3,7 +3,6 @@
 	    super.Init();
 	    GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(this.DiseaseCheck, 2000, false, this);
 	  }
-
 	  void DiseaseCheck(eAIBase ai) {
 	    if (!ai) return;
 	    eAIGroup group = eAIGroup.Cast(ai.GetGroup());
@@ -13,22 +12,6 @@
 			modifierlower.ToLower();
 	      switch (modifierlower)
 		{
-
-/*
-
-	 		= 1;
-	 		= 2;
-			= 4;
-	BRAIN 			= 8;
-			= 16;
-	ai.InsertAgent(eAgents.CHEMICAL_POISON, 1);	= 32;
-	ai.InsertAgent(eAgents.WOUND_AGENT, 1);		= 64;
-	ai.InsertAgent(eAgents.NERVE_AGENT, 1);		= 128;
-*/
-
-
-
-
 	      case "brain":
 	      ai.m_ModifiersManager.AddModifier(new BrainDiseaseMdfr);
 		  ai.InsertAgent(eAgents.BRAIN, 1);
@@ -96,10 +79,6 @@
 	      case "flies":
 	      ai.m_ModifiersManager.AddModifier(new FliesMdfr);
 	      ai.m_ModifiersManager.ActivateModifier(eModifiers.MDF_FLIES);
-	      break;
-	      case "drowning":
-	      ai.m_ModifiersManager.AddModifier(new DrowningMdfr);
-	      ai.m_ModifiersManager.ActivateModifier(eModifiers.MDF_DROWNING);
 	      break;
 		}
 	    }
