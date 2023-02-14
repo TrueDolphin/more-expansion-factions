@@ -21,13 +21,18 @@ class CfgMods
 		version = "0.1";
 		extra = 0;
 		type = "servermod";
-		dependencies[] = {"Game"};
+		dependencies[] = {"Game","World"};
 		class defs
 		{
 			class gameScriptModule
 			{
 				value = "";
 				files[] = {"dolphin/More-Expansion-Factions/Scripts/3_Game"};
+			};
+			class worldScriptModule
+			{
+				value = "";
+				files[] = {"dolphin/More-Expansion-Factions/Scripts/4_World"};
 			};
 		};
 	};
