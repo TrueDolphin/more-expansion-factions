@@ -5,10 +5,10 @@ class eAIFactionCannibal : eAIFaction
 	{
 		m_Name = "Cannibal";
 		m_Loadout = "Humanloadout";
-		m_Disease = eAgents.BRAIN;
+		m_FactionModifier = "brain";
 	}
 
-	override bool HasDisease() 
+	override bool HasModifier()
 	{
 		return true;
 	}

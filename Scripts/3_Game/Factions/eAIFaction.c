@@ -1,22 +1,12 @@
 modded class eAIFaction
 {
-	protected eAgents m_Disease;
+	protected string m_FactionModifier;
 
-	bool HasDisease() {
+	bool HasModifier() {
 		return false;
 	}
-	
-	eAgents disease() {
-		return m_Disease;
+
+	string FactionModifier(){
+		return m_FactionModifier;
 	}
 };
-    /*
-	CHOLERA
-	INFLUENZA
-	SALMONELLA
-	BRAIN
-	FOOD_POISON
-	CHEMICAL_POISON
-	WOUND_AGENT
-	NERVE_AGENT
-    */
