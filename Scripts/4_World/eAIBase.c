@@ -1,10 +1,12 @@
 	modded class eAIBase {
-    override void Expansion_Init()
+    override void eAI_SetFactionTypeID(int id)
     {
-      super.Expansion_Init();
+      super.eAI_SetFactionTypeID(id);
           DiseaseCheck();     
     }
 	  void DiseaseCheck() {
+		if (GetModifiersManager()) GetModifiersManager().DeactivateAllModifiers();
+		if (m_AgentPool) m_AgentPool.RemoveAllAgents();
 	    eAIGroup group = eAIGroup.Cast(GetGroup());
 	    if (!group) return;
 	    if (GetGroup().GetFaction().HasModifier()) {
