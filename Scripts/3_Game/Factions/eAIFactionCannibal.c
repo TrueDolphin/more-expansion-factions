@@ -3,7 +3,6 @@ class eAIFactionCannibal : eAIFaction
 {
 	void eAIFactionCannibal()
 	{
-		m_Name = "Cannibal";
 		m_Loadout = "Humanloadout";
 		m_FactionModifier = "brain";
 	}

@@ -3,7 +3,6 @@ class eAIFactionPolice : eAIFaction
 {
 	void eAIFactionPolice()
 	{
-		m_Name = "Police";
 		m_Loadout = "PoliceLoadout";
 	}
 

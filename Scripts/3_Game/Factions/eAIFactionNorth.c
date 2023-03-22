@@ -3,7 +3,6 @@ class eAIFactionNorth : eAIFaction
 {
 	void eAIFactionNorth()
 	{
-		m_Name = "North";
 		m_Loadout = "TTSKOLoadout";
 	}
 

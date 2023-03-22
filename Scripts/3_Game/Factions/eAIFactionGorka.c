@@ -3,7 +3,6 @@ class eAIFactionGorka : eAIFaction
 {
 	void eAIFactionGorka()
 	{
-		m_Name = "Gorka";
 		m_Loadout = "GorkaLoadout";
 	}
 

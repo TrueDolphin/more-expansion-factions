@@ -3,7 +3,6 @@ class eAIFactionBandit : eAIFaction
 {
 	void eAIFactionBandit()
 	{
-		m_Name = "bandit";
 		m_Loadout = "BanditLoadout";
 	}
 

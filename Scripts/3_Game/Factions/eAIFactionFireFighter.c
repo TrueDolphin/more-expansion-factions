@@ -3,7 +3,6 @@ class eAIFactionFireFighter : eAIFaction
 {
 	void eAIFactionFireFighter()
 	{
-		m_Name = "FireFighter";
 		m_Loadout = "FireFighterLoadout";
 	}
 

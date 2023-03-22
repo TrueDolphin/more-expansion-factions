@@ -3,7 +3,6 @@ class eAIFactionNBC : eAIFaction
 {
 	void eAIFactionNBC()
 	{
-		m_Name = "NBC";
 		m_Loadout = "NBCLoadout";
 	}
 

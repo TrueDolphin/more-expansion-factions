@@ -3,7 +3,6 @@ class eAIFactionHuman : eAIFaction
 {
 	void eAIFactionHuman()
 	{
-		m_Name = "Human";
 		m_Loadout = "HumanLoadout";
 	}
 

@@ -3,7 +3,6 @@ class eAIFactionPlayerSurvivor : eAIFaction
 {
 	void eAIFactionplayerSurvivor()
 	{
-		m_Name = "PlayerSurvivor";
 		m_Loadout = "PlayerSurvivorLoadout";
 	}
 

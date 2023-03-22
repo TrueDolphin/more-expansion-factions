@@ -3,7 +3,6 @@ class eAIFactionSouth : eAIFaction
 {
 	void eAIFactionSouth()
 	{
-		m_Name = "South";
 		m_Loadout = "TTSKOLoadout";
 	}
 
